@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script>
+        (function () {
+            try {
+                var stored = localStorage.getItem("theme");
+                var prefersDark =
+                    window.matchMedia &&
+                    window.matchMedia("(prefers-color-scheme: dark)").matches;
+                var theme = stored || (prefersDark ? "dark" : "light");
+                document.documentElement.setAttribute("data-theme", theme);
+            } catch (e) { }
+        })();
+    </script>
+
+    <title>Artem Kuchumov — Co-founder & CTO at Sinder (sinder.ae)</title>
+    <meta name="description"
+        content="Artem Kuchumov — Ex-Revolut AI engineer, Co-founder and CTO of Sinder (sinder.ae), a UAE-based fintech startup building with cutting-edge AI." />
+    <meta name="author" content="Artem Kuchumov" />
+    <meta name="keywords"
+        content="Artem Kuchumov, Sinder, sinder.ae, Co-founder Sinder, CTO Sinder, Chief Technology Officer, AI engineer, AI software engineer, ex Revolut, ex-Revoluter, Revolut alumni, Revolut mafia, UAE fintech, AI fintech, Dubai fintech, fintech founder UAE" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+
+    <link rel="canonical" href="https://artem-kuchumov.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Artem Kuchumov — Co-founder & CTO at Sinder (sinder.ae)" />
+    <meta property="og:description"
+        content="Ex-Revolut AI engineer. Co-founder and CTO of Sinder (sinder.ae), a UAE-based fintech startup building with cutting-edge AI." />
+    <meta property="og:url" content="https://artem-kuchumov.com/" />
+    <meta property="og:site_name" content="Artem Kuchumov" />
+    <meta property="profile:first_name" content="Artem" />
+    <meta property="profile:last_name" content="Kuchumov" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Artem Kuchumov — Co-founder & CTO at Sinder (sinder.ae)" />
+    <meta name="twitter:description"
+        content="Ex-Revolut AI engineer. Co-founder and CTO of Sinder (sinder.ae), a UAE-based fintech startup building with cutting-edge AI." />
+
+    <!-- Inline SVG favicon — keeps the page a single self-contained file -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Artem Kuchumov",
+        "givenName": "Artem",
+        "familyName": "Kuchumov",
+        "jobTitle": [
+          "Co-founder",
+          "Chief Technology Officer",
+          "AI Engineer"
+        ],
+        "description": "Ex-Revolut AI engineer. Co-founder and Chief Technology Officer of Sinder (sinder.ae), a UAE-based fintech startup building with cutting-edge AI.",
+        "hasOccupation": [
+          {
+            "@type": "Occupation",
+            "name": "Co-founder",
+            "occupationLocation": {
+              "@type": "Country",
+              "name": "United Arab Emirates"
+            }
+          },
+          {
+            "@type": "Occupation",
+            "name": "Chief Technology Officer",
+            "occupationLocation": {
+              "@type": "Country",
+              "name": "United Arab Emirates"
+            }
+          },
+          {
+            "@type": "Occupation",
+            "name": "AI Engineer",
+            "skills": "Large Language Models, AI agents, machine learning, applied AI"
+          }
+        ],
+        "founderOf": {
+          "@type": "Organization",
+          "name": "Sinder",
+          "url": "https://sinder.ae"
+        },
+        "alumniOf": {
+          "@type": "Organization",
+          "name": "Revolut",
+          "url": "https://www.revolut.com"
+        },
+        "url": "https://artem-kuchumov.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/artem-kuchumov/",
+          "https://github.com/artem-kuchumov",
+          "https://sinder.ae"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Sinder",
+          "legalName": "Sinder",
+          "url": "https://sinder.ae",
+          "industry": "Financial Technology",
+          "areaServed": {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          }
+        },
+        "knowsAbout": [
+          "Fintech",
+          "Artificial Intelligence",
+          "AI Engineering",
+          "Large Language Models",
+          "AI Agents",
+          "Machine Learning",
+          "Cloud Infrastructure",
+          "Software Architecture",
+          "UAE Financial Services",
+          "Revolut",
+          "Revolut Mafia"
+        ],
+        "nationality": {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Artem Kuchumov — Co-founder & CTO at Sinder",
+        "url": "https://artem-kuchumov.com/",
+        "author": {
+          "@type": "Person",
+          "name": "Artem Kuchumov"
+        }
+      }
+    </script>
+
+    <style>
+        :root,
+        :root[data-theme="light"] {
+            --bg: #fffaf2;
+            --bg-grad-1: #ffe8d2;
+            --bg-grad-2: #ffd9e8;
+            --bg-grad-3: #d6e7ff;
+            --fg: #1f1b2e;
+            --muted: #6b6480;
+            --line: #efe6dd;
+            --card: rgba(255, 255, 255, 0.72);
+            --card-bg-link: rgba(255, 255, 255, 0.6);
+            --accent: #ff6f4d;
+            --accent-2: #7a5cff;
+            --glow: rgba(255, 188, 92, 0.55);
+            --glow-soft: rgba(255, 200, 120, 0.35);
+            --light-source: radial-gradient(circle at 100% 0%,
+                    rgba(255, 214, 130, 0.55) 0%,
+                    rgba(255, 180, 120, 0.18) 22%,
+                    transparent 55%);
+            --card-sheen: linear-gradient(135deg,
+                    rgba(255, 235, 190, 0.55) 0%,
+                    rgba(255, 255, 255, 0) 45%);
+        }
+
+        :root[data-theme="dark"] {
+            --bg: #0f0c1a;
+            --bg-grad-1: #2a1d3a;
+            --bg-grad-2: #1d2742;
+            --bg-grad-3: #3a1d2c;
+            --fg: #f5f1ff;
+            --muted: #a59fbd;
+            --line: #2a2438;
+            --card: rgba(255, 255, 255, 0.04);
+            --card-bg-link: rgba(255, 255, 255, 0.05);
+            --accent: #ff8a6b;
+            --accent-2: #a98bff;
+            --glow: rgba(170, 200, 255, 0.55);
+            --glow-soft: rgba(140, 170, 230, 0.3);
+            --light-source: radial-gradient(circle at 100% 0%,
+                    rgba(180, 205, 255, 0.32) 0%,
+                    rgba(140, 170, 230, 0.12) 25%,
+                    transparent 60%);
+            --card-sheen: linear-gradient(135deg,
+                    rgba(190, 210, 255, 0.18) 0%,
+                    rgba(255, 255, 255, 0) 50%);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root:not([data-theme]) {
+                --bg: #0f0c1a;
+                --bg-grad-1: #2a1d3a;
+                --bg-grad-2: #1d2742;
+                --bg-grad-3: #3a1d2c;
+                --fg: #f5f1ff;
+                --muted: #a59fbd;
+                --line: #2a2438;
+                --card: rgba(255, 255, 255, 0.04);
+                --card-bg-link: rgba(255, 255, 255, 0.05);
+                --accent: #ff8a6b;
+                --accent-2: #a98bff;
+                --glow: rgba(170, 200, 255, 0.55);
+                --glow-soft: rgba(140, 170, 230, 0.3);
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            position: relative;
+            min-height: 100vh;
+            min-height: 100dvh;
+            background-color: var(--bg);
+            background-image:
+                radial-gradient(circle at 15% 20%, var(--bg-grad-1) 0%, transparent 45%),
+                radial-gradient(circle at 85% 10%, var(--bg-grad-2) 0%, transparent 50%),
+                radial-gradient(circle at 70% 90%, var(--bg-grad-3) 0%, transparent 55%);
+            background-attachment: fixed;
+            color: var(--fg);
+            font-family:
+                -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+                Arial, sans-serif;
+            font-size: clamp(15px, 1.6vw, 17px);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: max(88px, env(safe-area-inset-top, 0px) + 80px) clamp(16px, 5vw, 32px) max(40px, env(safe-area-inset-bottom, 0px) + 32px);
+            transition: background-color 0.6s ease, color 0.6s ease;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: var(--light-source);
+            pointer-events: none;
+            z-index: 0;
+            transition: opacity 0.6s ease, background 0.6s ease;
+        }
+
+        main {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 540px;
+            padding: 8px 4px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: clamp(1.85rem, 6.5vw, 2.6rem);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin: 0 0 0.35em;
+            line-height: 1.15;
+            background: linear-gradient(120deg, var(--accent), var(--accent-2));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            filter: drop-shadow(0 0 18px var(--glow));
+            transition: filter 0.6s ease;
+        }
+
+        .bio {
+            margin: 0 0 2em;
+            color: var(--fg);
+            font-size: clamp(0.98rem, 1.6vw, 1.05rem);
+            text-shadow: 0 0 22px var(--glow-soft);
+            text-wrap: balance;
+            transition: text-shadow 0.6s ease;
+        }
+
+        .role {
+            margin: 0 0 1.5em;
+            color: var(--muted);
+            font-size: clamp(0.98rem, 1.6vw, 1.05rem);
+            text-wrap: balance;
+        }
+
+        .role a {
+            color: var(--fg);
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 1px solid var(--line);
+            transition: border-color 0.2s ease, color 0.2s ease;
+        }
+
+        .role a:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 0 0 2.5em;
+            padding: 0;
+            list-style: none;
+        }
+
+        .links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 16px;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            background: var(--card-bg-link);
+            color: var(--fg);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: transform 0.15s ease, box-shadow 0.2s ease,
+                border-color 0.2s ease, background 0.6s ease;
+        }
+
+        .links a:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent);
+            box-shadow: 0 10px 24px -14px var(--accent);
+        }
+
+        .links svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: max(16px, env(safe-area-inset-top, 0px) + 12px);
+            right: max(16px, env(safe-area-inset-right, 0px) + 12px);
+            z-index: 10;
+            width: 44px;
+            height: 44px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            background: var(--card);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: var(--fg);
+            cursor: pointer;
+            box-shadow: 0 8px 24px -10px var(--glow);
+            transition: transform 0.2s ease, box-shadow 0.3s ease,
+                background 0.6s ease, border-color 0.6s ease;
+        }
+
+        .theme-toggle:hover {
+            transform: rotate(-12deg) scale(1.05);
+            box-shadow: 0 10px 28px -8px var(--glow);
+        }
+
+        .theme-toggle:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 3px;
+        }
+
+        .theme-toggle svg {
+            width: 20px;
+            height: 20px;
+            transition: transform 0.4s ease, opacity 0.3s ease;
+        }
+
+        .theme-toggle .icon-sun,
+        .theme-toggle .icon-moon {
+            position: absolute;
+        }
+
+        :root[data-theme="light"] .theme-toggle .icon-sun {
+            opacity: 0;
+            transform: rotate(90deg) scale(0.5);
+        }
+
+        :root[data-theme="light"] .theme-toggle .icon-moon {
+            opacity: 1;
+            transform: rotate(0deg) scale(1);
+        }
+
+        :root[data-theme="dark"] .theme-toggle .icon-sun {
+            opacity: 1;
+            transform: rotate(0deg) scale(1);
+        }
+
+        :root[data-theme="dark"] .theme-toggle .icon-moon {
+            opacity: 0;
+            transform: rotate(-90deg) scale(0.5);
+        }
+
+        footer {
+            color: var(--muted);
+            font-size: clamp(0.8rem, 1.4vw, 0.85rem);
+            border-top: 1px solid var(--line);
+            padding-top: 1.25em;
+            text-wrap: balance;
+        }
+
+        footer a {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px dotted var(--muted);
+        }
+
+        footer a:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+
+        /* --- Responsive tweaks --- */
+        @media (max-width: 480px) {
+            .links {
+                gap: 8px;
+            }
+
+            .links a {
+                padding: 9px 14px;
+                font-size: 0.92rem;
+            }
+
+            .theme-toggle {
+                width: 40px;
+                height: 40px;
+            }
+
+            .theme-toggle svg {
+                width: 18px;
+                height: 18px;
+            }
+        }
+
+        /* Disable hover-only transforms on touch devices to avoid sticky :hover state */
+        @media (hover: none) {
+            .theme-toggle:hover {
+                transform: none;
+            }
+
+            .links a:hover {
+                transform: none;
+            }
+        }
+
+        /* Respect users who prefer less motion */
+        @media (prefers-reduced-motion: reduce) {
+
+            *,
+            *::before,
+            *::after {
+                transition-duration: 0.001ms !important;
+                animation-duration: 0.001ms !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <button type="button" class="theme-toggle" aria-label="Toggle color theme" title="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m6.34 17.66-1.41 1.41" />
+            <path d="m19.07 4.93-1.41 1.41" />
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+    </button>
+
+    <main>
+        <article itemscope itemtype="https://schema.org/Person">
+            <h1 itemprop="name">Artem Kuchumov</h1>
+            <p class="role">
+                <span itemprop="jobTitle">Co-founder &amp; Chief Technology Officer</span> at
+                <a href="https://sinder.ae" rel="me external" itemprop="worksFor" itemscope
+                    itemtype="https://schema.org/Organization">
+                    <span itemprop="name">Sinder</span>
+                </a>
+            </p>
+
+            <p class="bio" itemprop="description">
+                Building a UAE-based fintech with cutting-edge AI.
+            </p>
+
+            <ul class="links">
+                <li>
+                    <a href="https://www.linkedin.com/in/artem-kuchumov/" rel="me noopener" target="_blank"
+                        itemprop="sameAs">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.15 1.45-2.15 2.95v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.86 3.38-1.86 3.61 0 4.28 2.38 4.28 5.47v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0z" />
+                        </svg>
+                        LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/artem-kuchumov" rel="me noopener" target="_blank" itemprop="sameAs">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.27-1.69-1.27-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.06 11.06 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.26 5.69.41.36.78 1.06.78 2.14v3.18c0 .31.21.68.8.56 4.56-1.52 7.85-5.83 7.85-10.91C23.5 5.65 18.35.5 12 .5z" />
+                        </svg>
+                        GitHub
+                    </a>
+                </li>
+            </ul>
+
+            <footer>
+                Artem Kuchumov &middot; Co-founder &amp; CTO at Sinder
+            </footer>
+        </article>
+    </main>
+
+    <script>
+        (function () {
+            var btn = document.querySelector(".theme-toggle");
+            if (!btn) return;
+            btn.addEventListener("click", function () {
+                var current =
+                    document.documentElement.getAttribute("data-theme") || "light";
+                var next = current === "dark" ? "light" : "dark";
+                document.documentElement.setAttribute("data-theme", next);
+                try {
+                    localStorage.setItem("theme", next);
+                } catch (e) { }
+            });
+        })();
+    </script>
+</body>
+
+</html>
