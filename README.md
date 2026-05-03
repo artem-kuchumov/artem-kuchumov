@@ -4,9 +4,9 @@
 
 I am a UAE-based fintech founder and software architect specializing in building cutting-edge financial services powered by Applied AI. 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Artem_Kuchumov-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/artem-kuchumov/)
 [![Website](https://img.shields.io/badge/Portfolio-artem--kuchumov.com-orange?style=flat-square)](https://artem-kuchumov.com/)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Artem_Kuchumov-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/artem-kuchumov/)
+[![X](https://img.shields.io/badge/X-ArtemKuchumovFT-black?style=flat-square&logo=x)](http://x.com/ArtemKuchumovFT)
 ---
 
 ## 🛠 What I'm Building
@@ -18,7 +18,7 @@ Currently, I am the **Chief Technology Officer at Sinder**, where we are leverag
 ## 🧠 Technical Expertise
 * **AI Engineering:** Large Language Models (LLMs), AI Agents, Machine Learning, Applied AI.
 * **Fintech Infrastructure:** Cloud Architecture, Scalable Software Systems, Financial Security.
-* **Experience:** Proud member of the **Revolut Alumni (Revolut Mafia)**, where I previously worked as an AI Engineer.
+* **Experience:** Proud member of the **Revolut Alumni**, where I previously worked as a Software Engineer.
 
 ## 📈 Experience & Background
 - 🇦🇪 **Co-founder & CTO** @ [Sinder](https://sinder.ae) (Dubai, UAE)
@@ -30,7 +30,5 @@ Currently, I am the **Chief Technology Officer at Sinder**, where we are leverag
 ## 📬 Connect with Me
 - **Website:** [artem-kuchumov.com](https://artem-kuchumov.com/)
 - **LinkedIn:** [in/artem-kuchumov](https://www.linkedin.com/in/artem-kuchumov/)
+- **X:** [@ArtemKuchumovFT](http://x.com/ArtemKuchumovFT)
 - **Work:** [sinder.ae](https://sinder.ae)
-
----
-*“Building with cutting-edge AI in the heart of the UAE fintech ecosystem.”*
