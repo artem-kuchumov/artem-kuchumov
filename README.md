@@ -6,7 +6,6 @@ I am a UAE-based fintech founder and software architect specializing in building
 
 [![Website](https://img.shields.io/badge/Portfolio-artem--kuchumov.com-orange?style=flat-square)](https://artem-kuchumov.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Artem_Kuchumov-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/artem-kuchumov/)
-[![X](https://img.shields.io/badge/X-ArtemKuchumovFT-black?style=flat-square&logo=x)](http://x.com/ArtemKuchumovFT)
 ---
 
 ## 🛠 What I'm Building
@@ -30,5 +29,4 @@ Currently, I am the **Chief Technology Officer at Sinder**, where we are leverag
 ## 📬 Connect with Me
 - **Website:** [artem-kuchumov.com](https://artem-kuchumov.com/)
 - **LinkedIn:** [in/artem-kuchumov](https://www.linkedin.com/in/artem-kuchumov/)
-- **X:** [@ArtemKuchumovFT](http://x.com/ArtemKuchumovFT)
 - **Work:** [sinder.ae](https://sinder.ae)
